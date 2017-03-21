@@ -6,3 +6,24 @@ h1 {
 html {
   background-color: #F2E39D; 
 }
+
+body{
+	padding: 0;
+	margin:0;
+}
+
+#StandardColumns{
+-webkit-column-count: 2; /* Chrome, Safari, Opera */
+-moz-column-count: 2; /* Firefox */
+column-count: 2;
+}
+
+#ContentMargin{
+	margin:25px;
+}
+
+#Border {
+	min-height: 100%;
+	border: 10px solid red;
+	border-color: #71BFD9;
+}
