@@ -4,25 +4,40 @@ h1 {
 	font-size: 14px
 	color:blue}
 html {
-  background-color: #F2E39D; 
+	background-color: #fafa9e; 
+	background-image: url("ImageSandTransparent.png");
 }
 
-body{
-	padding: 0;
-	margin:0;
+
+
+	
+
+#header{ 
+	width:100%;
+	height: 100%;
+	margin: -10;
+	padding: -10;
 }
 
 #StandardColumns{
--webkit-column-count: 2; /* Chrome, Safari, Opera */
--moz-column-count: 2; /* Firefox */
-column-count: 2;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
 }
 
 #ContentMargin{
 	margin:25px;
 }
 
-#Border {
+#Boxed{
+	border: 1px solid red;
+	border-color: #B0C8D6;
+	background-color: #B0C8D6;
+	opacity: 0.8;
+}
+
+#Border{
+	width: 100%;
 	min-height: 100%;
 	border: 10px solid red;
 	border-color: #B0C8D6;
